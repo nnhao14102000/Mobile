@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Designing using View"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btAuto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickToComplete"
+        android:text="Auto Complete Text View" />
+
+    <Button
+        android:id="@+id/btTimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickToTimer"
+        android:text="Time and Date Picker Demo" />
+
+    <Button
+        android:id="@+id/btSingleList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickToSingle"
+        android:text="Display long list" />
+
+    <Button
+        android:id="@+id/btMultipleList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickToMulti"
+        android:text="Display Multiple List" />
+
+    <Button
+        android:id="@+id/btSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickToSpinner"
+        android:text="Spinner Demo Display One Item" />
+
+    <Button
+        android:id="@+id/btListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickToListFragment"
+        android:text="List Fragment demo" />
+
+    <Button
+        android:id="@+id/btDialogFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickToDialogFragment"
+        android:text="Dialog Fragment Demo" />
+
+    <Button
+        android:id="@+id/btPreferenceFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickToPreferenceFragment"
+        android:text="Preference Fragment Demo" />
+
+</LinearLayout>

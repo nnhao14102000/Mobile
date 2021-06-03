@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/mainContainer"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragment1"
+            android:name="com.example.fragmentdemo.FragmentMain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"  />
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragment2"
+            android:name="com.example.fragmentdemo.FragmentSecond"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"  />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Fragment Dynamically"
+            android:id="@+id/btnManually"
+            android:layout_gravity="center"
+            android:onClick="clickToAddDinamically"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Interaction Between Fragments"
+            android:id="@+id/btnInteraction"
+            android:layout_gravity="center"
+            android:onClick="clickToInteraction"/>
+    </LinearLayout>
+
+
+</LinearLayout>

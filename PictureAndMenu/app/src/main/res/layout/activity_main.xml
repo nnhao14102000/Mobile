@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Pictures and Menu Demo" />
+
+    <Button
+        android:id="@+id/btGallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickToGallery"
+        android:text="Show picture from Gallery" />
+
+    <Button
+        android:id="@+id/btSwitcher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickToSwitch"
+        android:text="Slide picture on Gallery" />
+
+    <Button
+        android:id="@+id/btGrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickToGrid"
+        android:text="Show picture on Grid" />
+
+    <Button
+        android:id="@+id/btContext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hold to open context menu" />
+
+    <Button
+        android:id="@+id/btClock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickToClock"
+        android:text="Show Clock" />
+
+    <Button
+        android:id="@+id/btWeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickToWebView"
+        android:text="Show Web View" />
+
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnApple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apple" />
+
+    <Button
+        android:id="@+id/btnMango"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mango" />
+
+    <Button
+        android:id="@+id/btnBanana"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Banana" />
+
+    <Button
+        android:id="@+id/btnGrapes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grapes" />
+
+    <Button
+        android:id="@+id/btnKiwi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kiwi" />
+
+    <Button
+        android:id="@+id/btnManually"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickToManual"
+        android:text="Manage Screen Configuration" />
+
+    <Button
+        android:id="@+id/btnAnchor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickToAnchor"
+        android:text="Anchoring Views" />
+
+    <Button
+        android:id="@+id/btnUI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickToUI"
+        android:text="UI Dynamic View" />
+
+
+</LinearLayout>

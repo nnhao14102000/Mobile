@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InteractionActivity">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/FragmentDynamic1"
+        android:name="com.example.fragmentdemo.DynamicFragment1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/FragmentDynamic2"
+        android:name="com.example.fragmentdemo.DynamicFragment2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="192dp" />
+</LinearLayout>
